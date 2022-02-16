@@ -1,0 +1,66 @@
+
+body{
+  background-image: url("../images/building.png");
+  background-size: cover;
+  margin: 0;
+  color: #30475E;
+
+}
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;
+
+}
+h2 {
+  font-size: 2rem;
+}
+.navbar {
+  border-top-style: solid;
+  border-top-color: #FFE05D;
+  border-top-width: 3px;
+}
+
+.nav-item {
+  padding: 0 14px;
+}
+
+.nav-link {
+  color: #30475E;
+}
+.nav-link:hover {
+  color: grey;
+}
+.navbar-toggler-icon {
+  color: #30475E;
+}
+.name-heading {
+  padding: 20px 50px 0;
+}
+.development-heading {
+  padding: 0 50px;
+}
+.social-icons {
+  padding: 40px 50px 0;
+}
+
+.icons {
+  margin-right: 20px;
+  color: #30475E;
+}
+.icons:hover {
+  color: grey;
+}
+.projects {
+  text-align: center;
+}
+@media (max-width: 880px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .social-icons {
+    padding-top: 10px;
+  }
+}
